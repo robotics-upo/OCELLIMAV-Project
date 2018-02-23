@@ -26,4 +26,5 @@ In this folder you will find two Python scripts, one for training the network pr
 Two trained networks in `.hdf5` files: `rotations_model.hdf5` is the network trained only with pure rotations sets and `complete_model.hdf5` is the previous network re-trained with pure rotations and translations sets.
 
 
-### ./geometry_approach:
+### ./geometry_approach: 
+Fernando
