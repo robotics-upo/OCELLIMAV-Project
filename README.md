@@ -4,7 +4,7 @@ OCELLIMAV Project data and scripts
 ## Information
 This proyect contains OCELLIMAV Proyect data and scripts. This proyect was partially supported by MINECO (Spain) grant OCELLIMAV (TEC-61708-EXP). For more information about this work please check paper: 
 
-*Bioinspired Vision-Only Attitude Rate Estimation Using Machine-Learning* by M.Mérida-Floriano, F.Caballero, D.García-Morales, L.Casares and L.Merino, submmited to the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018) 
+*Bioinspired Direct Visual Estimation of Attitude Rates with Very Low Resolution Images using Deep Networks* by M.Mérida-Floriano, F.Caballero, D.García-Morales, L.Casares and L.Merino, submmited to the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018) 
 
 Data processing was compute with Numpy and OpenCV. Convolutional Neural Network was trained and tested using Keras2.0 with Theano backend.
 
