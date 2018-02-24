@@ -11,12 +11,7 @@ Data processing was compute with Numpy and OpenCV. Convolutional Neural Network 
 In folders you will find data and scripts to reproduce our experiments and results. About folders and its contents:
 
 ### ./data:
-Experiments data recorded. There are two subfolders:
-
-- **files:** contains 20 folders, one per experiment set. Each of these folders in turns contains a `data.txt` file with IMU information recorded such as time, angular rates, image pathes, etc. There are also three subfolders, one per camera, with original cameras images recorded. The first 13 sets are pure rotations experiments and the last 7 sets are pure translations experiments.
-
-- **processed:** contains 20 processed experiment sets in `.npz` format. There are also two Python scripts to process information in `./files` toobtain these `.npz` files.
-
+Experiments data recorded. Contains 20 processed experiment sets in `.npz` format and a README file where data structure is explained.
 
 ### ./scripts:
 In this folder you will find two Python scripts, one for training the network proposed in the paper (`training.py`) and one for testing the trained network (`testing.py`).
