@@ -2,13 +2,15 @@
 OCELLIMAV Project data and scripts
 
 ## Information
-This proyect contains OCELLIMAV Proyect data and scripts. This proyect was partially supported by MINECO (Spain) grant OCELLIMAV (TEC-61708-EXP). For more information about this work please check paper *Bioinspired Vision-Only Attitude Rate Estimation Using Machine-Learning* by M.Mérida-Floriano, F.Caballero, D.García-Morales, L.Casares and L.Merino, submmited to...
+This proyect contains OCELLIMAV Proyect data and scripts. This proyect was partially supported by MINECO (Spain) grant OCELLIMAV (TEC-61708-EXP). For more information about this work please check paper: 
+
+*Bioinspired Vision-Only Attitude Rate Estimation Using Machine-Learning* by M.Mérida-Floriano, F.Caballero, D.García-Morales, L.Casares and L.Merino, submmited to the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018) 
 
 Data processing was compute with Numpy and OpenCV. Convolutional Neural Network was trained and tested using Keras2.0 with Theano backend.
 
 
 ## Structure and contents:
-In folders you will find data and scripts to reproduce our experiments and results. About folders and its contents:
+In the folders you will find data and scripts to reproduce our experiments and results. About folders and its contents:
 
 ### ./data:
 Experiments data recorded. Contains 20 processed experiment sets in `.npz` format and a README file where data structure is explained.
