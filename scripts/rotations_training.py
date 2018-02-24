@@ -5,8 +5,11 @@
 #                                            =======================
 #
 # This proyect was partially supported by MINECO (Spain) grant OCELLIMAV (TEC-61708-EXP). 
-# For more information about this work please check paper Bioinspired Vision-Only Attitude Rate Estimation Using 
-# Machine-Learning by M.Mérida-Floriano, F.Caballero, D.García-Morales, L.Casares and L.Merino, submmited to...
+# For more information about this work please check paper:
+#
+# "Bioinspired Vision-Only Attitude Rate Estimation Using Machine-Learning" by M.Mérida-Floriano, F.Caballero, 
+# D.García-Morales, L.Casares and L.Merino, submmited to the 2018 IEEE/RSJ International Conference on Intelligent 
+# Robots and Systems (IROS 2018)
 #
 # In this script we implement the first network described in the paper above. First, pure rotations datasets are 
 # loaded for training the network. Then. CNN's architecture is defined and trained.
