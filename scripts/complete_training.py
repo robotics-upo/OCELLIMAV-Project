@@ -7,9 +7,9 @@
 # This proyect was partially supported by MINECO (Spain) grant OCELLIMAV (TEC-61708-EXP). 
 # For more information about this work please check paper: 
 #
-# "Bioinspired Vision-Only Attitude Rate Estimation Using Machine-Learning" by M.Mérida-Floriano, F.Caballero, 
-# D.García-Morales, L.Casares and L.Merino, submmited to the 2018 IEEE/RSJ International Conference on Intelligent 
-# Robots and Systems (IROS 2018)
+# "Bioinspired Direct Visual Estimation of Attitude Rates with Very Low Resolution Images using Deep Networks" by 
+# M.Mérida-Floriano, F.Caballero, D.García-Morales, L.Casares and L.Merino, submmited to the 2018 IEEE/RSJ International 
+# Conference on Intelligent Robots and Systems (IROS 2018)
 #
 # To run this script with your own network you first need a network only trained with pure rotations sets, for that
 # purpose execute rotations_training.py first and save the best network using ModelCheckpoint callback in Keras. In
