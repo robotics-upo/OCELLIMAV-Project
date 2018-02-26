@@ -22,4 +22,4 @@ In this folder you will find three Python scripts: one for training the network 
 Two trained networks in `.hdf5` files: `rotations_model.hdf5` is the network trained only with pure rotations sets and `complete_model.hdf5` is the previous network re-trained with pure rotations and translations sets.
 
 ### ./geometry_approach: 
-Fernando
+This folder contains ROS Kinetic module that implements a non-linear optimizer to estimate the Ocelli rotation based on direct observation of the pixels. 
