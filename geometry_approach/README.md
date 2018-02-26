@@ -11,3 +11,7 @@ This package depends on non-linear optimization ROS package than can be download
 
 ## Compilation
 In order to build the package, git clone this package (and the nonlinear_optimization) into your *src* directory of your Catkin workspace and compile it by using *catkin_make* as usual.
+
+## Execution
+The software reads as input an ocelli dataset in ascii mode. A couple of examples are included in *./ocelli_optimizer/data*. For each image triplet, the system returns the estimated orientation and error. Rotations are transformed into rates by multiplying for the camera frame rate.
+
