@@ -19,7 +19,7 @@ Experiments data recorded. You will find the pre-processing data script and two 
 In this folder you will find three Python scripts: one for training the network proposed in the paper with synthetic datasets (`simulation_training.py`), another one (`fine_tune_training.py`) for re-training the previous network with real data; the last script (`fine_tune_testing.py`) test the final network model. 
   
 ### ./models:
-Two trained networks in `.hdf5` format: `syntheci_model.hdf5` is the network trained only simulation data sets and `real_model.hdf5`, the previous model fine-tuned with real sets.
+Two trained networks in `.hdf5` format: `synthetic_model.hdf5` is the network trained only simulation data sets and `real_model.hdf5`, the previous model fine-tuned with real sets.
 
 ### ./geometry_approach: 
 This folder contains ROS Kinetic module that implements a non-linear optimizer to estimate the Ocelli rotation based on direct observation of the pixels. 
