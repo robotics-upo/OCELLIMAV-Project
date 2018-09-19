@@ -1,4 +1,10 @@
 
+Processed data recorded to train the CNNBiGRU network (synthetic and real). In simulation we considered two main scenarios: inside and outside a building, changing illumination conditions and number of light sources. About real data, we recorded data in indoor and outdoor scenarios aswell: an office, a building hall, under trees, a porch, etc., modifying light conditions.
+
+[Contribution guidelines for this project](../.github/datasets.png)
+
+
+
 # Data structure.
 
 Files in folders `simulation_data` and `real_data` contain all the experiments data processed in `.npz`. Each `.npz` file represents an experiment. This format is NumPy zipped archive containing `.npy` files, they can be loaded with `np.load()` (for more 
