@@ -23,4 +23,8 @@ Processed data (synthetic and real) recorded to train the CNNBiGRU network. In s
 - 4 sets in indoor scenario only with pure translations.
 
 
+
+
+
+
 In `processed_data` folder you will find two folders with datasets processed in order to train the network, aswell as information about data processing. 
