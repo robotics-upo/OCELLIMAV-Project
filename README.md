@@ -18,7 +18,7 @@ Data processing was compute with Numpy and OpenCV on Python2.7. Neural Network w
 In the following folders you will find data and scripts to reproduce our experiments and results. About folders and its contents:
 
 ### ./data:
-Experiments data recorded. You will find the pre-processing data script and two folders with synthetic and real data. Each of these folders contain processed experiment sets in `.npz` format and a README file where data structure is explained.
+You will find the pre-processing data script and links to real and synthetic datasets. In README file sets and processed data are explained.
 
 ### ./scripts:
 In this folder you will find three Python scripts: one for training the network proposed in the paper with synthetic datasets (`simulation_training.py`), another one (`fine_tune_training.py`) for re-training the previous network with real data; the last script (`fine_tune_testing.py`) test the final network model. 
