@@ -10,24 +10,31 @@ In this web, you will find a folder with original data (synthetic and real cases
 
 131 datasets, organized in `simulation_data` folder as follow (in order):
 
-- 35 sets in outdoor scenario with fixed light source (the Sun) direction.
+- 35 first sets in outdoor scenario with fixed light source (the Sun) direction.
 - 11 sets in outdoor scenario changing light source direction.
 - 30 sets in indoor scenario with 11 simultaneous light sources.
 - 20 sets in indoor scenario with 6 light sources. 
-- 35 sets in indoor scenario with windows (a porch), changing the external light direction.
+- 35 last sets in indoor scenario with windows (a porch), changing the external light direction.
+
+
+## Training and testing synthetic sets.
+
+We train the CNNBiGRU network from scratch with 122 synthetic sets, earmarking 9 sets for testing purposes: sets 12, 23, 44, 55, 72, 89, 101, 117 and 126. 
+
 
 # Real data.
-
-
-
 
 24 datasets, in `real_data` folder as follow:
 
 
-- 11 sets in purely outdoor scenario.
+- 11 first sets in purely outdoor scenario.
 - 1 set in a porch.
 - 8 sets in indoor scenario.
-- 4 sets in indoor scenario only with pure translations.
+- 4 last sets in indoor scenario only with pure translations.
+
+## Training and testing real sets.
+
+Once CNNBiGRU is trained, we fine-tune the network with 22 real sets, reserving 2 sets for testing purposes: sets 10 and 14. 
 
 
 # Preprocessing
