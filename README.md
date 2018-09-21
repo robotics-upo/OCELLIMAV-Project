@@ -49,9 +49,10 @@ With this network we are able to recover angular rates in three axis both with s
 
 <p align="center">
   <img src=.github/temp_evol17.png>
+  <sub>Temporal evolution of angular rates for a testing synthetic dataset with `synthetic_model.hdf5` </sub>
 </p>
 
-<sub>Temporal evolution of angular rates for a testing synthetic dataset with `synthetic_model.hdf5` </sub>
+
 
 A classical computer vision based method is also derived to be used as a benchmark for the learning approach. The method is validated with a large dataset of images (more than **500M** samples) including synthetic and real data.
 
@@ -62,7 +63,7 @@ In the following folders you will find data and scripts to reproduce our experim
 You will find the pre-processing data script and links to real and synthetic datasets. In README file sets and processed data are explained.
 
 ### ./scripts:
-In this folder you will find four Python scripts: one for training the CNNBiGRU network proposed in the paper with synthetic datasets (`simulation_training.py`) and the corresponding testing script, to test the model with synthetic data (`simulation_testing.py`); another one (`fine_tune_training.py`) for re-training the synthetic model with real data and the last script (`fine_tune_testing.py`) test the final model. 
+In this folder you will find four Python scripts: one for training from the scratch the CNNBiGRU network proposed in the paper with synthetic datasets (`simulation_training.py`) and the corresponding testing script, to test the model with synthetic data (`simulation_testing.py`); another one (`fine_tune_training.py`) for re-training the synthetic model with real data and the last script (`fine_tune_testing.py`) to test the final model. In order to execute these scripts you only need to write in the terminal: `python script_name.py`.
   
 ### ./models:
 Two trained networks in `.hdf5` format: `synthetic_model.hdf5` is the network trained from scratch only with synthetic data sets and `real_model.hdf5`, the previous model fine-tuned with real sets.
