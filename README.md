@@ -15,14 +15,16 @@ Data processing was compute with Numpy and OpenCV on Python2.7. Neural Network w
 
 
 ## Resume
-In this work we present a bioinspired visual system sensor to estimate angular rates in unmanned aerial vehicles (UAV) using Neural Networks. We have conceived a hardware setup to emulate *Drosophila*'s ocellar system, three simple eyes related to stabilization. This device is composed of three low resolution cameras with a similar spatial configuration as the ocelli.
 
-
-<p align="left">
+<p align="center">
   <img width="560" height="220" src=.github/ocelli_3.png">
 </p>
 
-<p align="right">
+
+In this work we present a bioinspired visual system sensor to estimate angular rates in unmanned aerial vehicles (UAV) using Neural Networks. We have conceived a hardware setup to emulate *Drosophila*'s ocellar system, three simple eyes related to stabilization. This device is composed of three low resolution cameras with a similar spatial configuration as the ocelli.
+
+
+<p align="center">
   <img widht="320" height="427" src=.github/device.jpg">
 </p>
 
