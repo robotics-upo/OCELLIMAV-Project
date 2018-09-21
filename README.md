@@ -69,7 +69,7 @@ A classical computer vision based method is also derived to be used as a benchma
 In the following folders you will find data and scripts to reproduce our experiments and results. About folders and its contents:
 
 ### ./data:
-You will find the pre-processing data script and links to real and synthetic datasets. In README file sets and processed data are explained.
+We realease our more than **500M** samples dataset. In the following link you will find the original and processed data for both real and synthetic environments: https://robotics.upo.es/datasets/ocellimav . Pre-processing data script and links to real and synthetic datasets can be found in this folder. In README file sets and processed data are explained.
 
 ### ./scripts:
 In this folder you will find four Python scripts: one for training from the scratch the CNNBiGRU network proposed in the paper with synthetic datasets (`simulation_training.py`) and the corresponding testing script, to test the model with synthetic data (`simulation_testing.py`); another one (`fine_tune_training.py`) for re-training the synthetic model with real data and the last script (`fine_tune_testing.py`) to test the final model. In order to execute these scripts you only need to write in the terminal: `python script_name.py`.
