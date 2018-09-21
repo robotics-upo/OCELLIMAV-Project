@@ -36,6 +36,7 @@ We have recreated this device in a simulated environment using Airsim to capture
 <p align="center">
   <img width="400" height="200" src=".github/real_experiment.gif">
   <img width="400" height="200" src=".github/simulation_experiment.gif">
+  
   <sub> Real (left) and synthetic (right) outdoor experiments </sub>
 </p>
 
