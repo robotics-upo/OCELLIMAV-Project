@@ -7,7 +7,7 @@ Gray-scale and RGB images of 320x240 (original) and 10x8 pixels (processed), and
 
 In order to access original and processed data, please consult the following link: https://robotics.upo.es/datasets/ocellimav/
 
-You will find a folder with original data (synthetic and real cases). Each of these folders contains three sub-folders, one per camera, and a `data.txt` file with IMU measurements that is used to process data. In addition you will also find a folder with processed data, containing `.npz` files used to train and test CNNBiGRU network.
+You will find a folder with original data (synthetic and real cases, https://robotics.upo.es/datasets/ocellimav/original_data/). Each of these folders contains three sub-folders, one per camera, and a `data.txt` file with IMU measurements that is used to process data. In addition you will also find a folder with processed data (synthetic and real, https://robotics.upo.es/datasets/ocellimav/processed_data/), containing `.npz` files used to train and test CNNBiGRU network.
 
 ## Synthetic data
 
