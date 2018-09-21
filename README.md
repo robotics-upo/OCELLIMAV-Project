@@ -49,7 +49,7 @@ With this network we are able to recover angular rates in three axis both with s
 
 <p align="center">
   <img src=.github/temp_evol17.png>
-  <sub>Temporal evolution of angular rates for a testing synthetic dataset with `synthetic_model.hdf5` </sub>
+  <sub>Temporal evolution of angular rates, real (red) and predicted by CNNBiGRU network (blue), of a testing synthetic dataset with `synthetic_model.hdf5`. </sub>
 </p>
 
 
