@@ -36,13 +36,10 @@ We have recreated this device in a simulated environment using Airsim to capture
 There have been previous approaches based on this ocellar system, most of them considering assumptions such as known light source direction or a punctual light source. In contrast, here we present a learning approach using Artificial Neural Networks in order to recover the system's angular rates indoors and outdoors without previous knowledge. About network structure, we propose a CNNBiGRU architecture.
 
 
-
-
 <p align="center">
   <img src=".github/ICRA_network2.png">
+  <sub> CNNBiGRU architecture escheme  </sub>
 </p>
-
-<sub>CNNBiGRU architecture escheme </sub>
 
 
 
