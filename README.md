@@ -19,11 +19,11 @@ In this work we present a bioinspired visual system sensor to estimate angular r
 
 
 <p align="left">
-  <img src=.github/ocelli_3.png">
+  <img width="560" height="220" src=.github/ocelli_3.png">
 </p>
 
 <p align="right">
-  <img src=.github/device.jpg">
+  <img widht="960" height="1280" src=.github/device.jpg">
 </p>
 
 
