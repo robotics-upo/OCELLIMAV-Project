@@ -23,7 +23,7 @@ In this work we present a bioinspired visual system sensor to estimate angular r
 </p>
 
 <p align="right">
-  <img widht="960" height="1280" src=.github/device.jpg">
+  <img widht="320" height="427" src=.github/device.jpg">
 </p>
 
 
