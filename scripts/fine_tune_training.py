@@ -16,8 +16,7 @@ import numpy as np
 
 # =============== Load training real data ===============
 
-
-train = np.asarray([2, 20, 32, 10, 27, 3, 29, 5, 24, 1, 28, 9, 25, 4, 30, 23, 18, 31, 11, 26, 7])
+train = np.asarray([2, 13, 24, 9, 19, 3, 21, 5, 16, 1, 20, 8, 17, 4, 22, 15, 11, 23, 12, 18, 7])
 data_train = np.load('../data/processed_data/real_data/data6.npz')
 simple_inputs = data_train["simple_inputs"]
 inputs_seq = data_train["inputs_seq"]

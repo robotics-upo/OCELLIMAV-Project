@@ -1,4 +1,10 @@
+"""
+OCELLIMAV project.
+This script load a CNNBiGRU trained from scratch with synthetic data model and test its response on nine testing sets: data12, data23, data44, data55, data72, data89, data101, data117 and data126. 
 
+In order to test the network, processed synthetic data must be organized in a folder with path '../data/processed_data/synthetic_data/', and trained model has to be in the folder '../models'.
+
+"""
 
 
 # =============== Imports ===============
@@ -8,7 +14,7 @@ from matplotlib import pyplot as plt
 import matplotlib as mpl
 
 # =============== Load testing data ===============
-data_test = np.load('../data/processed_data/synthetic_data/data17.npz')
+data_test = np.load('../data/processed_data/synthetic_data/data12.npz')
 simple_inputs = data_test["simple_inputs"]
 inputs_seq = data_test["inputs_seq"]
 Y = data_test["labels"]
