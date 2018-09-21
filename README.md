@@ -1,5 +1,10 @@
 # OCELLIMAV-Project
-OCELLIMAV Project data and scripts
+OCELLIMAV Project data and scripts.
+
+
+<p align="center">
+  <img width="460" height="300" src="../.github/logo3_2.png">
+</p>
 
 ## Information
 This proyect contains OCELLIMAV Proyect data and scripts. This proyect was partially supported by MINECO (Spain) grant OCELLIMAV (TEC-61708-EXP). For more information about this work please check paper: 
