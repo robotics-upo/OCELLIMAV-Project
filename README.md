@@ -7,7 +7,7 @@ OCELLIMAV Project data and scripts.
 </p>
 
 ## Information
-This proyect contains OCELLIMAV Proyect data and scripts. This proyect was partially supported by MINECO (Spain) grant OCELLIMAV (TEC-61708-EXP). For more information about this work please check paper: 
+This project contains OCELLIMAV Project data and scripts. This project was partially supported by MINECO (Spain) grant OCELLIMAV (TEC-61708-EXP). For more information about this work please check paper: 
 
 *Bioinspired Direct Visual Estimation of Attitude Rates with Very Low Resolution Images using Deep Networks* by M.Mérida-Floriano, F.Caballero, D.Acedo, D.García-Morales, L.Casares and L.Merino. Submmited to the 2019 IEEE International Conference on Robotics and Automation (ICRA 2019) 
 
@@ -42,6 +42,7 @@ There have been previous approaches based on this ocellar system, most of them c
   <img src=".github/ICRA_network2.png">
 </p>
 
+<sub>CNNBiGRU architecture escheme </sub>
 
 
 
@@ -53,7 +54,7 @@ With this network we are able to recover angular rates in three axis both with s
   <img src=.github/temp_evol17.png>
 </p>
 
-
+<sub>Temporal evolution of angular rates for a testing synthetic dataset with `synthetic_model.hdf5` </sub>
 
 A classical computer vision based method is also derived to be used as a benchmark for the learning approach. The method is validated with a large dataset of images (more than **500M** samples) including synthetic and real data.
 
