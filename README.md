@@ -3,7 +3,7 @@ OCELLIMAV Project data and scripts.
 
 
 <p align="center">
-  <img width="460" height="300" src="../.github/logo3_2.png">
+  <img width="460" height="300" src=".github/logo3_2.png">
 </p>
 
 ## Information
