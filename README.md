@@ -31,7 +31,15 @@ In this work we present a bioinspired visual system sensor to estimate angular r
 
 We have recreated this device in a simulated environment using Airsim to capture synthethic data. Experiments were recorded by hand performing rotations on three axis.
 
+<p align="left">
+  <img src=".github/real_experiment.gif">
+  <sub> Real outdoor experiment </sub>
+</p>
 
+<p align="right">
+  <img src=".github/simulation_experiment.gif">
+  <sub> Synthetic outdoor experiment </sub>
+</p>
 
 There have been previous approaches based on this ocellar system, most of them considering assumptions such as known light source direction or a punctual light source. In contrast, here we present a learning approach using Artificial Neural Networks in order to recover the system's angular rates indoors and outdoors without previous knowledge. About network structure, we propose a CNNBiGRU architecture.
 
