@@ -6,6 +6,7 @@ Gray-scale and RGB images of 320x240 (original) and 10x8 pixels (processed), and
 ![Datasets](../.github/datasets.png)
 
 In order to access original and processed data, please consult the following link: https://robotics.upo.es/datasets/ocellimav/
+
 You will find a folder with original data (synthetic and real cases). Each of these folders contains three sub-folders, one per camera, and a `data.txt` file with IMU measurements that is used to process data. In addition you will also find a folder with processed data, containing `.npz` files used to train and test CNNBiGRU network.
 
 ## Synthetic data
@@ -19,10 +20,6 @@ You will find a folder with original data (synthetic and real cases). Each of th
 - 35 last sets in indoor scenario with windows (a porch), changing the external light direction.
 
 
-### Training and testing synthetic sets
-
-We train the CNNBiGRU network from scratch with 122 synthetic sets, earmarking 9 sets for testing purposes: sets 12, 23, 44, 55, 72, 89, 101, 117 and 126. 
-
 
 ## Real data
 
@@ -33,9 +30,6 @@ We train the CNNBiGRU network from scratch with 122 synthetic sets, earmarking 9
 - 8 sets in indoor scenario.
 - 4 last sets in indoor scenario only with pure translations.
 
-### Training and testing real sets
-
-Once CNNBiGRU is trained, we fine-tune the network with 22 real sets, reserving 2 sets for testing purposes: sets 10 and 14. 
 
 
 # Preprocessing
