@@ -1,5 +1,7 @@
 
-# OCELLIMAV dataset overview
+# OCELLIMAV dataset
+
+## Overview
 Gray-scale and RGB images of 320x240 (original) and 10x8 pixels (processed), and angular rates from IMU measurements in both indoor and outdoor sceenarios, for simulated and real environments. Our dataset contains more than **500M** samples (comprised of three images and three angular rates). In synthetic data, recorded with AirSim, we considered 5 different illumination setting in indoor and outdoor scenarios: a temple sourrended by water and mountains. About indoor real data, we considered a building's hall with corridors and coffee machine, a dining room and a robotics laboratory. About outdoor real scenario, we captured data in a porch, under open sky and under a tree, with roads, car and people. 
 
 
