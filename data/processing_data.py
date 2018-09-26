@@ -37,6 +37,8 @@ frontPath = data[:,16]
 # =============== Process images ===============
 samples = len(wx)
 img = np.zeros((samples, 3, 8, 10))
+
+# For synthetic data, run this code
 for i in range (samples):
     imgL = cv2.imread(leftPath[i],0).astype(np.float)
     imgR = cv2.imread(rightPath[i],0).astype(np.float)
@@ -52,8 +54,32 @@ for i in range (samples):
     img[i,0,:,:] = imgL_down
     img[i,1,:,:] = imgR_down
     img[i,2,:,:] = imgF_down
-
-
+    
+# For real data, uncomment this code and comment code above
+"""
+for i in range (samples):
+    imgL = cv2.imread(leftPath[i],0).astype(np.float)
+    imgR = cv2.imread(rightPath[i],0).astype(np.float)
+    imgF = cv2.imread(frontPath[i],0).astype(np.float)
+    
+    imgL = np.transpose(imgL)
+    imgL = cv2.resize(imgL, imgL.shape,320/240,240/320)
+    imgR = np.transpose(imgR)
+    imgR = cv2.flip(imgR, 0)
+    imgR = cv2.resize(imgR, imgR.shape,320/240,240/320)
+    # Gaussian Pyramid downsampling
+    imgL_down = imgL
+    imgR_down = imgR
+    imgF_down = imgF
+    for j in range(5):
+        imgL_down = cv2.pyrDown(imgL_down)
+        imgR_down = cv2.pyrDown(imgR_down)
+        imgF_down = cv2.pyrDown(imgF_down)
+    img[i,0,:,:] = imgL_down
+    img[i,1,:,:] = imgR_down
+    img[i,2,:,:] = imgF_down
+    
+"""
 # Construct three structures with dimensions [samples, 2, 8, 10]
 img3PL = np.zeros((samples, 2, 8, 10))
 img3PR = np.zeros((samples, 2, 8, 10))
