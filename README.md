@@ -11,7 +11,7 @@ This project contains OCELLIMAV Project data and scripts. This project was parti
 
 *Bioinspired Direct Visual Estimation of Attitude Rates with Very Low Resolution Images using Deep Networks* by M.Mérida-Floriano, F.Caballero, D.Acedo, D.García-Morales, L.Casares and L.Merino. Accepted for publication in the 2019 IEEE International Conference on Robotics and Automation (ICRA 2019) 
 
-Data processing was compute with Numpy and OpenCV on Python2.7. Neural Network was trained and tested using Keras2.0 with Theano backend.
+Data processing was computed with Numpy and OpenCV on Python2.7. Neural Network was trained and tested using Keras2.0 with Theano 0.9 backend. *Important*: in order to reproduce the same results, it is necessary to run the scripts in these versions, otherwise results may vary.
 
 
 ## Resume
