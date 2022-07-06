@@ -182,14 +182,13 @@ class ocellimav():
         labels_data = net_labels
         model = self.define_network(input_data.shape[1:], [40, 20], [(3,3),(2,2)], ['same', 'valid'], [(1,2), 2], [0, 1], [100, 50, 20], 40)
         print('\n')
-        lr = 0.0001
         loss_fun = 'mse'
         time.sleep(2)
-        print('Compiling model with lr=%d' % lr)
+        print('Compiling model with lr=%d' % args.lr)
         print('Loss function: %s' % loss_fun)
         print('\n')
         print('\n')
-        adam = optimizers.Adam(lr = lr, clipnorm=1., clipvalue=0.5)
+        adam = optimizers.Adam(lr = args.lr, clipnorm=1., clipvalue=0.5)
         model.compile(optimizer=adam, loss=loss_fun)
         if args.modelcheckpoint == True:
             checkpoint = ModelCheckpoint(args.modelcheckpoint_path + 'model.{epoch:02d}-{val_loss:.4f}.hdf5', monitor='val_loss', save_best_only = True, save_weights_only=False)
@@ -291,6 +290,7 @@ if __name__ == '__main__':
     parser.add_argument('--epochs', type=int, default=400, help='Number of epochs to train the network')
     parser.add_argument('--batch_size', type=int, default=100, help='Batch size to train the network')
     parser.add_argument('--model_num', type=int, help='Model attempt number to keep track')
+    parser.add_argument('--lr', type=int, help='Learning rate for learning. When fine-tuning the network with real data use lr = 0.000001, otherwise lr=0.001')
     args = parser.parse_args()
     ocelli = ocellimav(args)
     ocelli.main_function(args)
