@@ -2,9 +2,9 @@
 #!/usr/bin/python3
 
 ################################################################################################################################################################
-# OCELLIMAV 2021                                                                                                                                               #
+# OCELLIMAV 2022                                                                                                                                               #
 #                                                                                                                                                              #
-# Script to train CNNBiGRU on Airsim synthetic dataset.                                                                                                        #
+# Script to train and test CNNBiGRU on Airsim synthetic dataset or real sets.                                                                                                        #
 # Versions:                                                                                                                                                    #
 #       Numpy : 1.13.1                                                                                                                                         #
 #       Matplotlib: 0.3.0                                                                                                                                      #
@@ -12,7 +12,7 @@
 #       Tensorflow: 1.13.1                                                                                                                                        #
 #                                                                                                                                                              #
 # How to execute it (in a terminal):                                                                                                                           #
-#          python3 train_synthetic_2021.py  --set=training --sequences 00 02 --model_dir='path/to/model/experiment/'                                           #
+#          python3 ocellimav.py  --set=training --sequences 00 02 --model_dir='path/to/model/experiment/'                                           #
 #                                                                                                                                                              #
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------#
 __author__ = "Macarena Merida-Floriano"                                                                                                                        #
